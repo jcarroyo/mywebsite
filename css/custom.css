@@ -14,7 +14,7 @@ nav a{
 }
 
 header{  
-  background: url("../images/back2.jpg");
+  background: url("../images/back.png");
   text-align: center;      
 }
 
@@ -32,7 +32,7 @@ header .container img{
 }
 
 #experiencia{
-  background-image: url("../images/experiencia_background.png");*/
+  background-image: url("../images/experiencia_background.jpg");
 }
 
 .personal-info{
@@ -87,4 +87,19 @@ header h1 span{
 
 .highlight{
   font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  background-color: #605C5C;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+  font-weight: bold;
+  color: white;
+}
+
+.explanation{
+  color: white;
 }
