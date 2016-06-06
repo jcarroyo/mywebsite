@@ -1,11 +1,9 @@
-/*#FE7448*/
-
 h1,h2,h3,h4,h5,h6{
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 nav{
-  background-color: #2c3e50 !important;
+  background-color: #12282C !important;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;    
@@ -24,7 +22,7 @@ header{
   background: rgba(0,0,0, 0.6);
 }
 
-header h1, header h2, header h3{
+header h1, header h2, header h3, header h4{
   color: white;
 }
 
@@ -34,24 +32,19 @@ header .container img{
 }
 
 #experiencia{
-  /*background-image: url("../images/experiencia_background.png");*/
+  background-image: url("../images/experiencia_background.png");*/
 }
 
 .personal-info{
 
 }
 
-section{
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-
 header h1 span{
- color: #FE7448;  
+ color: #e0745c;  
 }
 
 .container h2, .container h3{
- color: #FE7448; 
+ color: #e0745c; 
 }
 
 .personal-about{
@@ -80,5 +73,18 @@ header h1 span{
 }
 
 #about, #proyectos{
-  background-color: #18bc9c;
+  background-color: #5CC8E0;
+}
+
+.img-jc{
+  display: block;
+  margin: 30px auto;
+}
+
+.my-roles{
+  color: #BFA624 !important;
+}
+
+.highlight{
+  font-weight: bold;
 }
