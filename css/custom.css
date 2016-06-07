@@ -14,7 +14,7 @@ nav a{
 }
 
 header{  
-  background: url("../images/back.png");
+  background: url("../images/developer-office.png");
   text-align: center;      
 }
 
@@ -32,11 +32,13 @@ header .container img{
 }
 
 #experiencia{
-  background-image: url("../images/experiencia_background.jpg");
+  background-image: url("../images/experiencia_background.jpg");    
 }
 
-.personal-info{
-
+@media(max-width:767px){
+  #experiencia{
+    background-position: 500px;
+  }
 }
 
 header h1 span{
@@ -73,7 +75,7 @@ header h1 span{
 }
 
 #about, #proyectos{
-  background-color: #5CC8E0;
+  background-color: #EAE8E3;
 }
 
 .img-jc{
@@ -101,5 +103,5 @@ header h1 span{
 }
 
 .explanation{
-  color: white;
+  color: #3C5A82;
 }
